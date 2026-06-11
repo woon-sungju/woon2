@@ -436,20 +436,22 @@ footer{
             <p>기본 정보와 성향을 소개합니다.</p>
         </div>
 
-        <div class="grid about-grid">
 
             <div class="card profile-card fade">
-                <img
-    src="IMG_0160.png"
-    alt="WOON 프로필 사진"
-    class="profile-image" 
-    />
 
-                <h3>WOON</h3>
-                <p style="color:var(--muted); margin-top:10px;">
-                    Creative • ISFP • Drawing Lover
-                </p>
-            </div>
+    <img
+        src="profile.png"
+        alt="WOON 프로필 이미지"
+        class="profile-image"
+    >
+
+    <h3>WOON</h3>
+
+    <p style="color:var(--muted); margin-top:10px;">
+        Creative • ISFP • Drawing Lover
+    </p>
+
+</div>
 
             <div class="card fade">
                 <div class="info-list">

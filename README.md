@@ -40,6 +40,7 @@ body{
     color:var(--text);
     font-family:'Inter',sans-serif;
     overflow-x:hidden;
+    text-align:center;
 }
 
 .body::before{

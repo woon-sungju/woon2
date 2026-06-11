@@ -531,7 +531,6 @@ footer{
         </div>
 
     </div>
-</section>
 
 <section class="section" id="contact">
     <div class="container">
@@ -556,7 +555,6 @@ footer{
 
     </div>
 </section>
-</main>
 
 <footer>
     <div class="container">
@@ -592,5 +590,3 @@ document.querySelectorAll('.fade').forEach(el=>{
     observer.observe(el);
 });
 </script>
-</body>
-</html>

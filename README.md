@@ -439,9 +439,8 @@ footer{
     src="IMG_0160.png"
     alt="WOON 프로필 사진"
     class="profile-image"
-/>
 
-.profile-image{
+    .profile-image{
     width:140px;
     height:140px;
     border-radius:50%;
@@ -454,6 +453,11 @@ footer{
         0 20px 40px rgba(0,0,0,.35);
     transition:.4s;
 }
+
+.profile-image:hover{
+    transform:scale(1.05);
+}
+/>
 
 .profile-image:hover{
     transform:scale(1.05);

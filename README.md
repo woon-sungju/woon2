@@ -440,7 +440,7 @@ footer{
             <div class="card profile-card fade">
 
     <img
-        src="profile.png"
+        src="IMG_0160.png"
         alt="WOON 프로필 이미지"
         class="profile-image"
     >

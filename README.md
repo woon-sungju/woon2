@@ -251,18 +251,22 @@ header{
     text-align:center;
 }
 
-.avatar{
-    width:120px;
-    height:120px;
+.profile-image{
+    width:140px;
+    height:140px;
     border-radius:50%;
-    margin:auto;
-    background:linear-gradient(135deg,var(--primary),var(--primary-light));
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:3rem;
-    font-weight:800;
-    margin-bottom:1.2rem;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 1.5rem;
+    border:4px solid rgba(20,184,166,.6);
+    box-shadow:
+        0 0 0 8px rgba(20,184,166,.12),
+        0 20px 40px rgba(0,0,0,.35);
+    transition:.4s;
+}
+
+.profile-image:hover{
+    transform:scale(1.05);
 }
 
 .info-list{
@@ -438,32 +442,9 @@ footer{
                 <img
     src="IMG_0160.png"
     alt="WOON 프로필 사진"
-    class="profile-image"
+    class="profile-image" 
+    />
 
-    .profile-image{
-    width:140px;
-    height:140px;
-    border-radius:50%;
-    object-fit:cover;
-    display:block;
-    margin:0 auto 1.5rem;
-    border:4px solid rgba(20,184,166,.6);
-    box-shadow:
-        0 0 0 8px rgba(20,184,166,.12),
-        0 20px 40px rgba(0,0,0,.35);
-    transition:.4s;
-}
-
-}
-
-.profile-image:hover{
-    transform:scale(1.05);
-}
-/>
-
-.profile-image:hover{
-    transform:scale(1.05);
-}
                 <h3>WOON</h3>
                 <p style="color:var(--muted); margin-top:10px;">
                     Creative • ISFP • Drawing Lover

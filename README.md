@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -31,7 +31,7 @@
     box-sizing:border-box;
 }
 
-html{
+.html{
     scroll-behavior:smooth;
 }
 
@@ -42,7 +42,7 @@ body{
     overflow-x:hidden;
 }
 
-body::before{
+.body::before{
     content:"";
     position:fixed;
     inset:0;
@@ -59,7 +59,7 @@ body::before{
     margin:auto;
 }
 
-header{
+.header{
     position:fixed;
     top:0;
     left:0;
@@ -382,6 +382,7 @@ footer{
 }
 </style>
 </head>
+
 <body>
 
 <header>

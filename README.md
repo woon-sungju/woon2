@@ -443,7 +443,7 @@ footer{
         src="IMG_0160.png"
         alt="WOON 프로필 이미지"
         class="profile-image"
-    >
+    />
 
     <h3>WOON</h3>
 
@@ -486,7 +486,6 @@ footer{
 
         </div>
 
-    </div>
 </section>
 
 <section class="section" id="interests">

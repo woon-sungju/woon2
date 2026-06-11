@@ -23,6 +23,7 @@
     --glass:rgba(255,255,255,.05);
     --shadow:0 20px 40px rgba(0,0,0,.35);
     --radius:24px;
+    --text-align:center;
 }
 
 *{
@@ -57,7 +58,7 @@ body{
 
 .container{
     width:min(1200px,92%);
-    margin:auto;
+    text-align:center;
 }
 
 .header{
@@ -83,6 +84,7 @@ body{
     font-size:1.4rem;
     font-weight:800;
     letter-spacing:2px;
+    text-align:center;
 }
 
 .logo span{

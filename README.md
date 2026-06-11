@@ -454,6 +454,8 @@ footer{
     transition:.4s;
 }
 
+}
+
 .profile-image:hover{
     transform:scale(1.05);
 }

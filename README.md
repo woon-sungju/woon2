@@ -484,8 +484,6 @@ footer{
                 </div>
             </div>
 
-        </div>
-
 </section>
 
 <section class="section" id="interests">
